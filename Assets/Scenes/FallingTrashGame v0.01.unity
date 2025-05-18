@@ -1133,7 +1133,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.8}
   m_EdgeRadius: 0
 --- !u!50 &740109925
 Rigidbody2D:
@@ -1495,7 +1495,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.8}
   m_EdgeRadius: 0
 --- !u!50 &1062714599
 Rigidbody2D:
@@ -1672,7 +1672,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.8}
   m_EdgeRadius: 0
 --- !u!50 &1107757833
 Rigidbody2D:
@@ -3115,6 +3115,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601141046}
   m_CullTransparentMesh: 1
+--- !u!1 &1642751959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1642751960}
+  m_Layer: 0
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1642751960
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1642751959}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672296333
 GameObject:
   m_ObjectHideFlags: 0
@@ -3124,8 +3155,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1672296334}
+  - component: {fileID: 1672296335}
   m_Layer: 0
-  m_Name: SpawnPoint
+  m_Name: TrashSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3146,6 +3178,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: -14.354, z: 0}
+--- !u!114 &1672296335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672296333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e3466ae7221ac44e86df92f07ff0074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashRedPrefab: {fileID: 8169420585496166401, guid: cfca4d86a3b3e6f48aa00cdb00411726, type: 3}
+  trashYellowPrefab: {fileID: 8169420585496166401, guid: ebcff43e0d3874940a69702e6e5bc30d, type: 3}
+  trashBluePrefab: {fileID: 8169420585496166401, guid: ba077302e8c069846937bd9239338656, type: 3}
+  spawnPoint: {fileID: 1642751960}
+  spawnDelay: 3
 --- !u!1 &1803193066
 GameObject:
   m_ObjectHideFlags: 0
@@ -3691,3 +3740,4 @@ SceneRoots:
   - {fileID: 456542998}
   - {fileID: 2066925728}
   - {fileID: 1672296334}
+  - {fileID: 1642751960}

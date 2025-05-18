@@ -23,4 +23,9 @@ public class ScoreController : MonoBehaviour
         score++;
         UpdateScoreUI(); // Update UI when score changes
     }
+
+    public int getScore()
+    {
+        return this.score;
+    }
 }

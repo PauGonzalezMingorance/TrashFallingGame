@@ -9,10 +9,13 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private float mvtSpeed = 4f;
     private Rigidbody2D rb;
     private Vector2 movementDirection;
-    public ScoreController score;
+    private ScoreController score;
+
 
     void Start()
     {
+        score = FindObjectOfType<ScoreController>();
+
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f; // disable gravity so it's only movement-controlled
     }
@@ -43,6 +46,10 @@ public class NewMonoBehaviourScript : MonoBehaviour
         {
             Destroy(gameObject);
             score.increaseScore();
+        }
+        else
+        {
+            Destroy(gameObject);
         }
         
     }

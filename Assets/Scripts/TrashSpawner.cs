@@ -6,11 +6,13 @@ public class TrashSpawner : MonoBehaviour
     public GameObject trashRedPrefab;
     public GameObject trashYellowPrefab;
     public GameObject trashBluePrefab;
+    private ScoreController score;
     public Transform spawnPoint;
-    public float spawnDelay = 3f;
+    public float spawnDelay = 2f;
 
     void Start()
     {
+        score = FindObjectOfType<ScoreController>();
         StartCoroutine(SpawnRoutine());
     }
 
@@ -18,10 +20,14 @@ public class TrashSpawner : MonoBehaviour
     {
         while (true)
         {
+            // Dynamically adjust spawn delay based on score
+            float currentDelay = score.getScore() >= 3 ? 1.5f : spawnDelay;
+
             SpawnRandomTrash();
-            yield return new WaitForSeconds(spawnDelay);
+            yield return new WaitForSeconds(currentDelay);
         }
     }
+
     void SpawnRandomTrash()
     {
         int rand = Random.Range(0, 3);

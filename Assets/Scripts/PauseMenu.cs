@@ -13,12 +13,14 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         PausePanel.SetActive(true);
-        Time.timeScale = 0; 
+        Time.timeScale = 0;
+        GamePlayManager.isGamePaused = true;
     }
 
     public void Continue()
     {
         PausePanel.SetActive(false);
         Time.timeScale = 1;
+        GamePlayManager.isGamePaused = false;
     }
 }
