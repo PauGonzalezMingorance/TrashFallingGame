@@ -2069,6 +2069,7 @@ CanvasRenderer:
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1406873862
 =======
 --- !u!1 &1392943105
@@ -2229,6 +2230,7 @@ SpriteRenderer:
 =======
   m_GameObject: {fileID: 1392943105}
 >>>>>>> Stashed changes
+=======
   m_GameObject: {fileID: 1392943105}
 >>>>>>> Stashed changes
 =======
