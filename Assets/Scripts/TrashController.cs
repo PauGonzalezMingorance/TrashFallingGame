@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class NewMonoBehaviourScript : MonoBehaviour
 {
-    public enum CanColor { Red, Yellow, Blue }  // add your colors here
+    public enum CanColor { Red, Yellow, Blue, Green, Grey }  // add your colors here
     public CanColor trashColor;
 
     private float mvtSpeed = 4f;
