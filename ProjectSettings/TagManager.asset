@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Boundary
+  - trashCanBlue
+  - trashCanRed
+  - trashCanYellow
+  - trashCanGreen
+  - trashCanGrey
   layers:
   - Default
   - TransparentFX
