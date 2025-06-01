@@ -34,8 +34,8 @@ public class TrashSpawner : MonoBehaviour
     {
         int rand = Random.Range(0, 4);
         Vector3 spawnPos = spawnPoint.position;
-             spawnPos.y = 3.5f;  // force Y to 3.5
-             spawnPos.z = 0f;    // force Z to 0 for 2D plane
+        spawnPos.y = 3.5f;  // force Y to 3.5
+        spawnPos.z = 0f;    // force Z to 0 for 2D plane
 
         if(rand == 0)
         {
@@ -68,6 +68,4 @@ public class TrashSpawner : MonoBehaviour
             Debug.Log("Spawned trash color: " + trashGreyPrefabs[objectIndex].name);   
         }
     }
-
-
 }

@@ -8,8 +8,8 @@ TagManager:
   - trashCanBlue
   - trashCanRed
   - trashCanYellow
-  - TrashCanGreen
-  - TrashCanGrey
+  - trashCanGreen
+  - trashCanGrey
   layers:
   - Default
   - TransparentFX
