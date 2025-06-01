@@ -185,7 +185,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      neumatic_0: 4712005563830609514
+      neumatic_1: 7010146883202759403
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
