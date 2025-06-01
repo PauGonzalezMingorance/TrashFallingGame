@@ -150,6 +150,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream:Assets/Sprites/trash/neumatic.png.meta
     spriteCustomMetadata:
       entries: []
@@ -161,6 +162,10 @@ TextureImporter:
     nameFileIdTable: {}
   spritePackingTag: 
 >>>>>>> Stashed changes:Assets/Flexalon/Sprites/buildalon-logo.png.meta
+=======
+    nameFileIdTable: {}
+  spritePackingTag: 
+>>>>>>> Stashed changes
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
   userData: 

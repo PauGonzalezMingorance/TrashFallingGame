@@ -2068,7 +2068,11 @@ CanvasRenderer:
   m_GameObject: {fileID: 1369422100}
   m_CullTransparentMesh: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1406873862
+=======
+--- !u!1 &1392943105
+>>>>>>> Stashed changes
 =======
 --- !u!1 &1392943105
 >>>>>>> Stashed changes
@@ -2080,12 +2084,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   - component: {fileID: 1406873864}
   - component: {fileID: 1406873863}
   m_Layer: 0
   m_Name: ChatGPT Image Jun 1, 2025, 12_48_52 PM_0
   m_TagString: Untagged
 =======
+=======
+>>>>>>> Stashed changes
   - component: {fileID: 1392943106}
   - component: {fileID: 1392943109}
   - component: {fileID: 1392943108}
@@ -2093,14 +2100,20 @@ GameObject:
   m_Layer: 0
   m_Name: TrashCanGrey
   m_TagString: TrashCanGrey
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!212 &1406873863
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!4 &1392943106
 Transform:
   m_ObjectHideFlags: 0
@@ -2190,6 +2203,9 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 --- !u!212 &1392943109
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2197,7 +2213,11 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 1406873862}
+=======
+  m_GameObject: {fileID: 1392943105}
+>>>>>>> Stashed changes
 =======
   m_GameObject: {fileID: 1392943105}
 >>>>>>> Stashed changes
@@ -2239,7 +2259,11 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 5422365192468913798, guid: 9d6ab215d529cf249a2e83fecbb7e872, type: 3}
+=======
+  m_Sprite: {fileID: 9009787563146803528, guid: 2cfd06a86b852a843b66c7c25503edbb, type: 3}
+>>>>>>> Stashed changes
 =======
   m_Sprite: {fileID: 9009787563146803528, guid: 2cfd06a86b852a843b66c7c25503edbb, type: 3}
 >>>>>>> Stashed changes
@@ -2248,7 +2272,11 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 0
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Size: {x: 10.24, y: 10.24}
+=======
+  m_Size: {x: 1, y: 1}
+>>>>>>> Stashed changes
 =======
   m_Size: {x: 1, y: 1}
 >>>>>>> Stashed changes
@@ -2257,6 +2285,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &1406873864
 Transform:
@@ -2273,6 +2302,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 --- !u!1 &1441267317
