@@ -2107,6 +2107,7 @@ GameObject:
   m_Name: TrashCanGrey
   m_TagString: TrashCanGrey
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -2214,6 +2215,7 @@ Rigidbody2D:
   m_Constraints: 0
 --- !u!212 &1392943109
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -2224,6 +2226,7 @@ SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1406873862}
@@ -2275,6 +2278,7 @@ SpriteRenderer:
   m_SortingOrder: 0
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 5422365192468913798, guid: 9d6ab215d529cf249a2e83fecbb7e872, type: 3}
 =======
   m_Sprite: {fileID: 9009787563146803528, guid: 2cfd06a86b852a843b66c7c25503edbb, type: 3}
@@ -2289,6 +2293,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_Size: {x: 10.24, y: 10.24}
@@ -2306,6 +2311,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 --- !u!4 &1406873864
