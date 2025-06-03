@@ -8,6 +8,7 @@ public class TrashSpawner : MonoBehaviour
     public GameObject[] trashBluePrefabs;
     public GameObject[] trashGreenPrefabs;
     public GameObject[] trashGreyPrefabs;
+  
     private ScoreController score;
     public Transform spawnPoint;
     public float spawnDelay = 2f;
@@ -16,6 +17,8 @@ public class TrashSpawner : MonoBehaviour
     {
         score = FindObjectOfType<ScoreController>();
         StartCoroutine(SpawnRoutine());
+        Time.timeScale = 1;
+        GamePlayManager.isGamePaused = false;
     }
 
     IEnumerator SpawnRoutine()

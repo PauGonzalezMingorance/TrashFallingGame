@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 69dc7c5e1737b8648be0a9e3ec0a8e4f
+guid: 24b4fb80d229ec847b602d038bb158bf
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4712005563830609514
-    second: neumatic_0
-  - first:
-      213: 7010146883202759403
-    second: neumatic_1
+      213: -6742875818125314558
+    second: ChatGPT Image Jun 2, 2025, 11_16_08 AM_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -112,30 +109,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: iOS
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: neumatic_0
+      name: ChatGPT Image Jun 2, 2025, 11_16_08 AM_0
       rect:
         serializedVersion: 2
-        x: 124
-        y: 202
-        width: 770
-        height: 606
+        x: 0
+        y: 0
+        width: 1024
+        height: 1024
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,30 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a66a9c35818646140800000000000000
-      internalID: 4712005563830609514
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: neumatic_1
-      rect:
-        serializedVersion: 2
-        x: 466
-        y: 176
-        width: 330
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: beabc9ce27b094160800000000000000
-      internalID: 7010146883202759403
+      spriteID: 206b1103b2e7c62a0800000000000000
+      internalID: -6742875818125314558
       vertices: []
       indices: 
       edges: []
@@ -186,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      neumatic_0: 4712005563830609514
-      neumatic_1: 7010146883202759403
+      ChatGPT Image Jun 2, 2025, 11_16_08 AM_0: -6742875818125314558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

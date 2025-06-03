@@ -9,15 +9,18 @@ public class NewMonoBehaviourScript : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 movementDirection;
     private ScoreController score;
+    private HealthController health;
 
 
     void Start()
     {
         score = FindObjectOfType<ScoreController>();
+        health = FindObjectOfType<HealthController>(); // THIS LINE is needed
 
         rb = GetComponent<Rigidbody2D>();
-        rb.gravityScale = 0f; // disable gravity so it's only movement-controlled
+        rb.gravityScale = 0f;
     }
+
 
     void Update()
     {
@@ -49,6 +52,7 @@ public class NewMonoBehaviourScript : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            health.LoseLife();
         }
     }
 }

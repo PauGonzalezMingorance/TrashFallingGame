@@ -15,4 +15,9 @@ public class GamePlayManager : MonoBehaviour
     {
         
     }
+
+    public void setIsGamePaused(bool condition)
+    {
+        isGamePaused = condition;
+    }
 }
