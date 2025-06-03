@@ -11,7 +11,7 @@ public class TrashSpawner : MonoBehaviour
   
     private ScoreController score;
     public Transform spawnPoint;
-    public float spawnDelay = 2f;
+    public float spawnDelay;
 
     void Start()
     {
@@ -25,11 +25,10 @@ public class TrashSpawner : MonoBehaviour
     {
         while (true)
         {
-            // Dynamically adjust spawn delay based on score
-            float currentDelay = score.getScore() >= 3 ? 1.5f : spawnDelay;
-
+           
+            
             SpawnRandomTrash();
-            yield return new WaitForSeconds(currentDelay);
+            yield return new WaitForSeconds(spawnDelay);
         }
     }
 

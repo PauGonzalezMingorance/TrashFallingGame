@@ -3777,7 +3777,7 @@ MonoBehaviour:
   trashGreyPrefabs:
   - {fileID: 3750233912326599323, guid: 9f528abcbbcdfa44c944c60f5fd63a42, type: 3}
   spawnPoint: {fileID: 1642751960}
-  spawnDelay: 3
+  spawnDelay: 1.5
 --- !u!114 &1672296336
 MonoBehaviour:
   m_ObjectHideFlags: 0
