@@ -1743,6 +1743,7 @@ GameObject:
   - component: {fileID: 1062714600}
   - component: {fileID: 1062714599}
   - component: {fileID: 1062714598}
+  - component: {fileID: 1062714602}
   m_Layer: 0
   m_Name: TrashCanRed
   m_TagString: trashCanRed
@@ -1878,21 +1879,33 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!4 &1062714601
-Transform:
+--- !u!224 &1062714601
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062714597}
-  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06517029, y: -5.07898, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.40609026, y: 0.40609026, z: 0.40609026}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 456542998}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.06517029, y: -5.07898}
+  m_SizeDelta: {x: 5.06, y: 6.78}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1062714602
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062714597}
+  m_CullTransparentMesh: 1
 --- !u!1 &1107757830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2870,7 +2883,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: -5.753, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -117.26245, y: -60.482635}
+  m_AnchoredPosition: {x: -103.5, y: -60.482635}
   m_SizeDelta: {x: 221.0001, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1544714309
@@ -3270,7 +3283,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 24.865784, y: -57.93109}
+  m_AnchoredPosition: {x: 0, y: -68.931}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1560706688
